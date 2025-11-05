@@ -1,0 +1,84 @@
+# ===============================
+# Bioinformatics Project .gitignore
+# Author: Karthik R
+# Purpose: Keep repo clean but retain QC, VCF, and annotation results
+# ===============================
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Python cache / temp files ---
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+
+# --- Conda / virtual environment files ---
+*.conda
+*.yaml~
+*.yml~
+envs/
+.conda/
+.venv/
+venv/
+*.lock
+
+# --- Alignment and intermediate files ---
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+*.metrics.txt
+*.dict
+*.fai
+*.bwt
+*.sa
+*.amb
+*.ann
+*.pac
+*.sai
+*.tmp
+*.swp
+
+# --- Reference index / cache ---
+reference/*.fai
+reference/*.bwt
+reference/*.pac
+reference/*.ann
+reference/*.amb
+reference/*.sa
+reference/*.dict
+reference/*.gzi
+reference/*.csi
+
+# --- Compressed FASTQ or raw data ---
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# --- VEP cache or logs ---
+~/.vep/
+*.vep.cache
+*.vep.log
+*.vep.summary
+
+# --- Misc temporary or backup files ---
+*~
+*.bak
+*.old
+*.backup
+*.out
+*.err
+*.tmp
+
+# --- Hidden temp directories ---
+.cache/
+tmp/
+logs/
+results/tmp/
+

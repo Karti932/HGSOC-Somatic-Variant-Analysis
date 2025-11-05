@@ -1,0 +1,32 @@
+name: somatic_variant_calling
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  # Core tools
+  - python=3.10
+  - fastqc
+  - multiqc
+  - bwa
+  - samtools
+  - gatk4
+  - ensembl-vep
+
+  # Utilities
+  - pandas
+  - matplotlib
+  - seaborn
+
+  # Compression / I/O support
+  - gzip
+  - zlib
+
+  # Optional but useful for future analysis
+  - bcftools
+  - bedtools
+  - tabix
+
+  # For plotting annotated results in Python
+  - jupyterlab
+  - numpy
