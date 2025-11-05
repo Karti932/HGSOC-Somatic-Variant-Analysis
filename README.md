@@ -145,3 +145,8 @@ Our somatic variant calling highlights several genes and variant types consisten
 **Karthik R**
 MSc Bioinformatics – Garden City University
 Focused on drug and vaccine design, genome annotation, and variant analysis.
+
+---
+## Contact
+If you have any questions or suggestions related to this project, feel free to reach out:  
+**Email:** hrkarthik976@gmail.com 
